@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyHate - Blog de Odio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>OnlyHate</h1>
+        <p>Expresa tu odio de la manera más creativa posible.</p>
+    </header>
+
+    <main>
+        <section class="create-post">
+            <h2>Crear una nueva publicación</h2>
+            <form id="postForm">
+                <input type="text" id="title" placeholder="Título" required>
+                <textarea id="content" placeholder="Escribe tu odio aquí..." required></textarea>
+                <button type="submit">Publicar</button>
+            </form>
+        </section>
+
+        <section class="blog-posts">
+            <h2>Publicaciones recientes</h2>
+            <div id="postsContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 OnlyHate - Expresa tu odio con estilo.</p>
+    </footer>
+</body>
+</html>
